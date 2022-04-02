@@ -3,6 +3,7 @@
 }
 
 body {
+    height:100vh;
     background-image: url("./BG4.jpg");
     background-attachment:fixed;
     display: flex;
