@@ -20,7 +20,7 @@ body {
 
 /* All Titles */
 h1 {
-    font-size: 7vw;
+    font-size: 6vw;
     font-weight: normal;
     margin-bottom: 0;
     text-align: center;
@@ -61,7 +61,7 @@ h2 {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    margin-bottom: 2vh;
+    margin-bottom: 1.75vh;
     text-align: center;
 
 }
@@ -70,7 +70,7 @@ h2 {
 .big-text {
 
     font-weight: bold;
-    font-size: 7vw;
+    font-size: 6vw;
     line-height: 1;
     margin: 0 2rem;
 
