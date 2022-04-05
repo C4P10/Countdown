@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* background-image: url("./BG4.jpg"); */
+    /* background-attachment: fixed; */
+    background-color: #d95550;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family: 'Black Ops One', "sans-serif";
+    color: rgb(245, 250, 241);
+    height: auto;
+
+}
+
+/* All Titles */
+h1 {
+    font-size: 7vw;
+    font-weight: normal;
+    margin-bottom: 0;
+    text-align: center;
+
+}
+
+/* Boards Title */
+.boards {
+    color: rgba(255, 255, 255, 0.918);
+    background-color: #1b737859;
+    background-position: center;
+    border: 4px outset gray;
+    border-radius: 50%;
+    padding: 2.5%;
+
+}
+
+#Main {
+    display: flexbox;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* Explicit Date */
+h2 {
+    margin-top: 0;
+    font-family: 'verdana';
+    color: rgba(255, 255, 0, 0.829);
+    font-weight: 100;
+    font-size: 2.5vw;
+    text-align: center;
+
+}
+
+/* Full countdown container text + timers */
+.countdown-container {
+
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 2vh;
+    text-align: center;
+
+}
+
+/* Countdown Time Only */
+.big-text {
+
+    font-weight: bold;
+    font-size: 7vw;
+    line-height: 1;
+    margin: 0 2rem;
+
+}
+
+/* Countdown time only */
+.countdown-el {
+
+    text-align: center;
+}
+
+/* Countdown text only */
+.countdown-el span {
+    font-size: 2.5vw;
+    text-align: center;
+}
+
+/* /Code for the side pull out */
+
+button {
+    font-size: x-large;
+    background-color: white;
+    border: none;
+    color: #d95551;
+    position: fixed;
+    top: 10px;
+    right: 0px;
+    padding: 0.75rem;
+    transition: transform 0.50s ease-in-out;
+    border-radius: 25% 0% 0% 25%;
+
+}
+
+button:hover {
+    cursor: pointer;
+    color: rgb(255, 94, 0);
+}
+
+button.active {
+    transform: translateX(-135px);
+}
+
+nav {
+    background-color: white;
+    font-size: medium;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    padding: 1rem;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in-out;
+}
+
+nav.active {
+    transform: translate(0);
+}
+
+
+nav {
+    color: #d95551;
+    text text-decoration: none;
+}
