@@ -4,7 +4,7 @@ const minutesEl = document.getElementById('minutes');
 const secondsEl = document.getElementById('seconds');
 
 //JEE1
-const JEE1 = '21 Apr 2022';
+const JEE1 = '20 Jun 2022';
 function countdown() {
     const JEE1Date = new Date(JEE1);
     const currentDate = new Date();
@@ -34,7 +34,7 @@ const minutesj2El = document.getElementById('minutesj2');
 const secondsj2El = document.getElementById('secondsj2');
 
 
-const JEE2 = '24 May 2022';
+const JEE2 = '21 Jul 2022';
 
 function countdownj2() {
     const JEE2Date = new Date(JEE2);
