@@ -114,7 +114,7 @@ const minutesm1El = document.getElementById('minutesm1');
 const secondsm1El = document.getElementById('secondsm1');
 
 
-const MHCET = '15 May 2022';
+const MHCET = '05 Aug 2022';
 
 function countdownm1() {
     const MHCETDate = new Date(MHCET);
