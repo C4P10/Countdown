@@ -108,13 +108,13 @@ countdowns2();
 
 
 //VIT
-const hourss2El = document.getElementById('dayss2');
-const dayss2El = document.getElementById('hourss2');
-const minutess2El = document.getElementById('minutess2');
-const secondss2El = document.getElementById('secondss2');
+const hoursvitEl = document.getElementById('daysvit');
+const daysvitEl = document.getElementById('hoursvit');
+const minutesvitEl = document.getElementById('minutesvit');
+const secondsvitEl = document.getElementById('secondsvit');
 
 
-const SRM2 = '2 Jul 2022';
+const VIT = '2 Jul 2022';
 
 function countdownvit() {
     const vitDate = new Date(VIT);
