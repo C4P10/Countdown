@@ -34,7 +34,7 @@ const minutesj2El = document.getElementById('minutesj2');
 const secondsj2El = document.getElementById('secondsj2');
 
 
-const JEE2 = '21 Jul 2022';
+const JEE2 = '29 Jun 2022';
 
 function countdownj2() {
     const JEE2Date = new Date(JEE2);
@@ -106,6 +106,32 @@ function countdowns2() {
 }
 countdowns2();
 
+
+//VIT
+const hourss2El = document.getElementById('dayss2');
+const dayss2El = document.getElementById('hourss2');
+const minutess2El = document.getElementById('minutess2');
+const secondss2El = document.getElementById('secondss2');
+
+
+const SRM2 = '2 Jul 2022';
+
+function countdownvit() {
+    const vitDate = new Date(VIT);
+    const currentDate = new Date();
+
+    const totalSecondsvit = (vitDate - currentDate) / 1000;
+    const daysvit = Math.floor(totalSecondsvit / 3600 / 24);
+    const hoursvit = Math.floor(totalSecondsvit / 3600) % 24;
+    const minutesvit = Math.floor(totalSecondsvit / 60) % 60;
+    const secondsvot = Math.floor(totalSecondsvit) % 60
+
+    hoursvitEl.innerHTML = daysvit;
+    daysvitEl.innerHTML = formatTime(hoursvit);
+    minutesvitEl.innerHTML = formatTime(minutesvit);
+    secondsvitEl.innerHTML = formatTime(secondsvit);
+}
+countdownvit();
 
 //MHCET
 const hoursm1El = document.getElementById('daysm1');
@@ -286,6 +312,7 @@ setInterval(countdowne1, 1000);
 setInterval(countdownp1, 1000);
 setInterval(countdownmt1, 1000);
 setInterval(countdownip1, 1000);
+setInterval(countdownvit, 1000);
 
 // CODE FOR PULL OUT
 
