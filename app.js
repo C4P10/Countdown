@@ -337,6 +337,7 @@ g
 h
 i
 j
+k
 
 var a = 1;
 var b = 1;
@@ -348,6 +349,7 @@ var g = 1;
 var h = 1;
 var i = 1;
 var j = 1;
+var k = 1;
 
 function MyFunc1() {
     if (a == 1) {
@@ -476,6 +478,20 @@ function MyFunc10() {
         const vis = document.getElementById('SRM2');
         vis.style.display = 'inline';
         return j = 1;
+    }
+
+};
+
+function MyFunc11() {
+    if (k == 1) {
+        const vis = document.getElementById('vit');
+        vis.style.display = 'none';
+        return k = 0;
+    }
+    else {
+        const vis = document.getElementById('vit');
+        vis.style.display = 'inline';
+        return k = 1;
     }
 
 };
