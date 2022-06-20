@@ -124,7 +124,7 @@ function countdownvit() {
     const daysvit = Math.floor(totalSecondsvit / 3600 / 24);
     const hoursvit = Math.floor(totalSecondsvit / 3600) % 24;
     const minutesvit = Math.floor(totalSecondsvit / 60) % 60;
-    const secondsvot = Math.floor(totalSecondsvit) % 60
+    const secondsvit = Math.floor(totalSecondsvit) % 60
 
     hoursvitEl.innerHTML = daysvit;
     daysvitEl.innerHTML = formatTime(hoursvit);
